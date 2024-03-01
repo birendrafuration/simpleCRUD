@@ -29,6 +29,28 @@
 						"url": "http://localhost:8000/users"
 					},
 					"response": []
+				},
+				{
+					"name": "get all users",
+					"id": "362599ec-3d91-41fc-b103-f6b78e3564ef",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"biru@gmail.com\",\r\n    \"name\":\"birendra\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/users"
+					},
+					"response": []
 				}
 			],
 			"id": "c7cb32e7-a906-4ebf-83c2-3d42ddbe2cf9"
