@@ -19,7 +19,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Doe\",\r\n  \"username\": \"john_doe123\",\r\n  \"password\": \"randomPassword123@\",\r\n  \"email\": \"john.doe@gmail.com\",\r\n  \"userType\": \"regular\",\r\n   \"dob\": \"1990-05-15T00:00:00.000Z\",\r\n  \"gender\": \"male\"\r\n}\r\n",
+							"raw": "{\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Doe\",\r\n  \"username\": \"john_doe123\",\r\n  \"password\": \"randomPassword123@\",\r\n  \"email\": \"john.deh@gmail.com\",\r\n  \"userType\": \"regular\",\r\n   \"dob\": \"1990-05-15\",\r\n  \"gender\": \"male\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
