@@ -26,7 +26,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:8000/api/v1/super-admin"
+						"url": "{{local_base_url}}/api/v1/super-admin"
 					},
 					"response": []
 				},
@@ -76,7 +76,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:8000/api/v1/college-admin"
+						"url": "{{local_base_url}}/api/v1/college-admin"
 					},
 					"response": []
 				},
@@ -98,7 +98,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:8000/api/v1/college-admin"
+						"url": "{{local_base_url}}/api/v1/college-admin"
 					},
 					"response": []
 				},
@@ -120,7 +120,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:8000/api/v1/college-admin"
+						"url": "{{local_base_url}}/api/v1/college-admin/1"
 					},
 					"response": []
 				}
