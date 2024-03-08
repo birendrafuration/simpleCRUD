@@ -103,7 +103,7 @@
 					"response": []
 				},
 				{
-					"name": "get all super-admins Copy",
+					"name": "get a collge-admin",
 					"id": "64d947b0-7202-45ca-a365-8442026a3440",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
