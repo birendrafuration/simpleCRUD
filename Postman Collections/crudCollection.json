@@ -1,15 +1,15 @@
 {
 	"info": {
 		"_postman_id": "8ce43780-24f4-4a0c-be30-07acfd45ef4c",
-		"name": "crud",
+		"name": "CWW",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "user",
+			"name": "super-admin",
 			"item": [
 				{
-					"name": "create an user",
+					"name": "create an super-admin",
 					"id": "daf506bb-583d-4ded-8ea3-3fc0b4f091f4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -31,7 +31,7 @@
 					"response": []
 				},
 				{
-					"name": "get all users",
+					"name": "get all super-admins",
 					"id": "362599ec-3d91-41fc-b103-f6b78e3564ef",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -54,6 +54,56 @@
 				}
 			],
 			"id": "c7cb32e7-a906-4ebf-83c2-3d42ddbe2cf9"
+		},
+		{
+			"name": "College-admin",
+			"item": [
+				{
+					"name": "create an college-admin",
+					"id": "1c2c7d62-6668-4588-a749-9cef76879b96",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firstName\": \"Ram\",\r\n  \"lastName\": \"Doe\",\r\n  \"username\": \"ram_doe1234\",\r\n  \"password\": \"Ram@123@\",\r\n  \"email\": \"ram.dehg@gmail.com\",\r\n  \"userType\": \"collegeadmin\",\r\n   \"dob\": \"1990-05-15\",\r\n  \"gender\": \"male\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/v1/college-admin"
+					},
+					"response": []
+				},
+				{
+					"name": "get all super-admins",
+					"id": "204b3826-48ef-4c0d-b693-916553ecb973",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"biru@gmail.com\",\r\n    \"name\":\"birendra\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/v1/college-admin"
+					},
+					"response": []
+				}
+			],
+			"id": "5ac36951-06a2-4ad6-b155-1e775126ef07"
 		}
 	]
 }
