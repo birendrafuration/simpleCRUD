@@ -123,6 +123,28 @@
 						"url": "{{local_base_url}}/api/v1/college-admin/1"
 					},
 					"response": []
+				},
+				{
+					"name": "login by email and password",
+					"id": "a78b71ba-09f3-4213-8cd4-f849dc2318c8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"password\": \"Rama@123@\",\r\n  \"email\": \"rama.dehg@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{local_base_url}}/api/v1/login/login"
+					},
+					"response": []
 				}
 			],
 			"id": "5ac36951-06a2-4ad6-b155-1e775126ef07"
