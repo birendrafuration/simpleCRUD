@@ -73,6 +73,28 @@
 						"url": "{{local_base_url}}/api/v1/super-admin/2"
 					},
 					"response": []
+				},
+				{
+					"name": "delete a super-admin",
+					"id": "37eea289-78a4-470c-bd10-a42edcfc154d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{local_base_url}}/api/v1/super-admin/2"
+					},
+					"response": []
 				}
 			],
 			"id": "c7cb32e7-a906-4ebf-83c2-3d42ddbe2cf9"
