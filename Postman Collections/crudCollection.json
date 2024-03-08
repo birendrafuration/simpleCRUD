@@ -81,8 +81,30 @@
 					"response": []
 				},
 				{
-					"name": "get all super-admins",
+					"name": "get all college-admins",
 					"id": "204b3826-48ef-4c0d-b693-916553ecb973",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"biru@gmail.com\",\r\n    \"name\":\"birendra\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8000/api/v1/college-admin"
+					},
+					"response": []
+				},
+				{
+					"name": "get all super-admins Copy",
+					"id": "64d947b0-7202-45ca-a365-8442026a3440",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
