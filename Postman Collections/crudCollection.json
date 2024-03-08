@@ -41,14 +41,36 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"biru@gmail.com\",\r\n    \"name\":\"birendra\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "http://localhost:8000/api/v1/super-admin"
+						"url": "{{local_base_url}}/api/v1/super-admin"
+					},
+					"response": []
+				},
+				{
+					"name": "get a super-admin",
+					"id": "8261a412-bffb-4ec5-8686-bf489980d1c5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{local_base_url}}/api/v1/super-admin/2"
 					},
 					"response": []
 				}
