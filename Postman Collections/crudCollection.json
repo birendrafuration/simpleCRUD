@@ -123,7 +123,13 @@
 						"url": "{{local_base_url}}/api/v1/college-admin/1"
 					},
 					"response": []
-				},
+				}
+			],
+			"id": "5ac36951-06a2-4ad6-b155-1e775126ef07"
+		},
+		{
+			"name": "Login Access",
+			"item": [
 				{
 					"name": "login by email and password",
 					"id": "a78b71ba-09f3-4213-8cd4-f849dc2318c8",
@@ -142,12 +148,12 @@
 								}
 							}
 						},
-						"url": "{{local_base_url}}/api/v1/login/login"
+						"url": "{{local_base_url}}/api/v1/login/email-password"
 					},
 					"response": []
 				}
 			],
-			"id": "5ac36951-06a2-4ad6-b155-1e775126ef07"
+			"id": "7c8a9bb9-321f-472c-8f3b-3e66c5a242cd"
 		}
 	]
 }
