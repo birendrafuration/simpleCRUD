@@ -123,6 +123,28 @@
 						"url": "{{local_base_url}}/api/v1/college-admin/1"
 					},
 					"response": []
+				},
+				{
+					"name": "delete a collge-admin",
+					"id": "c737a51d-d917-4e85-a235-9fa593e2fce2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{local_base_url}}/api/v1/college-admin/2"
+					},
+					"response": []
 				}
 			],
 			"id": "5ac36951-06a2-4ad6-b155-1e775126ef07"
