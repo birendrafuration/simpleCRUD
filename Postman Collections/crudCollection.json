@@ -142,7 +142,7 @@
 								}
 							}
 						},
-						"url": "{{local_base_url}}/api/v1/college-admin/2"
+						"url": "{{local_base_url}}/api/v1/college-admin/11"
 					},
 					"response": []
 				}
