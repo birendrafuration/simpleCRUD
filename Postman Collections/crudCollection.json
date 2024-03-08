@@ -69,7 +69,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"firstName\": \"Ram\",\r\n  \"lastName\": \"Doe\",\r\n  \"username\": \"ram_doe1234\",\r\n  \"password\": \"Ram@123@\",\r\n  \"email\": \"ram.dehg@gmail.com\",\r\n  \"userType\": \"collegeadmin\",\r\n   \"dob\": \"1990-05-15\",\r\n  \"gender\": \"male\"\r\n}\r\n",
+							"raw": "{\r\n  \"firstName\": \"Rama\",\r\n  \"lastName\": \"Doe\",\r\n  \"username\": \"rama_doe1234\",\r\n  \"password\": \"Rama@123@\",\r\n  \"email\": \"rama.dehg@gmail.com\",\r\n  \"userType\": \"collegeadmin\",\r\n   \"dob\": \"1990-05-15\",\r\n  \"gender\": \"male\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
